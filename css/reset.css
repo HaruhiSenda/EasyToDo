@@ -1,0 +1,64 @@
+
+/* ボックスサイズを統一 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ブラウザ標準の余白を削除 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ページの基本設定 */
+html {
+    font-size: 100%;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 画像のはみ出し防止 */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* フォームのフォントを統一 */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* リストの装飾を削除 */
+ul,
+ol {
+    list-style: none;
+}
+
+/* リンクの色を継承 */
+a {
+    color: inherit;
+}
+
+/* 長い文字列によるはみ出し防止 */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}

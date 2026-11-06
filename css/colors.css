@@ -1,0 +1,69 @@
+body{
+    background-color: #F8FAFC;
+}
+aside{
+    border-right: 2px solid #CBD5E1;
+    background-color: #F1F5F9;
+}
+h1{
+    color:#334155;
+}
+h2{
+    color: #334155;
+}
+.complete-title{
+    color:#64748B;
+}
+h3{
+    color: #64748B;
+}
+
+
+h4{
+    color:#64748B;
+}
+.empty-image{
+    background-color: #64748B;
+}
+
+#task-input{
+    border-color: #CBD5E1;
+}
+.submit-button{
+    color: #FFF;
+    background-color: #405D75;
+}
+
+
+select{
+    border-color: #CBD5E1;
+    color: #64748B;
+}
+
+.star-select{
+    color: #64748B;
+}
+input[type="checkbox"] {
+    accent-color: #405D75;
+}
+.task-star:focus-visible {
+    outline: 2px solid #405D75;
+}
+
+/*リストとタスク*/
+.complete-check{
+    accent-color: #405D75;
+}
+ul{
+    color:#64748B;
+}
+li{
+    border-bottom: 1px solid #CBD5E1;
+}
+.task-date {
+    color: #64748B;
+}
+.task-type label:has(input:checked) {
+    background-color: #405D75;
+    color: white;
+}

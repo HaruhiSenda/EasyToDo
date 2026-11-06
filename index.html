@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<header>
+    <meta charset="UTF-8">
+    <title>Easy To Do</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <script src="main.js" type="module" defer></script>
+</header>
+
+<body>
+    <main class="app">
+
+        <aside class="left-column">
+            <h1>Easy ToDo</h1>
+            <!-- タスク入力フォーム -->
+            <h3>タスクを追加</h3>
+            <form id="input-area">
+                <input type="text" id="task-input" name="task" placeholder="新しいタスクを入力...">
+                <button type="submit" class="submit-button">＋ 追加する</button>
+            </form>
+            <!-- 並べ替え設定 -->
+            <div class="rule-set">
+                <h3>表示順</h3>
+                <select id="sort-rule">
+                    <option value="id">登録順</option>
+                    <option value="limit">期限順</option>
+                </select>
+                <div class="star-check">
+                    <label for="star-change" class="star-select">スターを優先</label>
+                    <input type="checkbox" id="star-first" checked>
+                </div>
+            </div>
+        </aside>
+        <div class="list-area">
+            <!-- 未完了リスト -->
+            <div class="incomplete-list-area">
+                <h2>タスク一覧</h2>
+                <ul id="incomplete-list" class="list"></ul>
+            </div>
+            <!-- 完了リスト -->
+            <details class="complete-list-area">
+                <summary class="complete-title">完了済</summary>
+                <ul id="complete-list" class="completed-list"></ul>
+            </detalis>
+        </div>
+    </main>
+</body>
+
+</html>
