@@ -149,6 +149,7 @@ li{
     align-items: center;
     gap: 12px;
     min-width: 0;
+    flex: 1;
 }
 
 /* チェックボックス */
@@ -165,7 +166,6 @@ li{
 }
 span{
     font-size: 18px;
-    max-width: 90%;
 }
 .task-date {
     width: 120px;
